@@ -41,7 +41,7 @@ body {
   color: #777;
 }
 
-/* Responsive for mobile */
+
 @media (max-width: 400px) {
   .weather-card {
     width: 90%;
