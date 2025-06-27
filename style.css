@@ -40,3 +40,20 @@ body {
   margin-top: 5px;
   color: #777;
 }
+
+/* Responsive for mobile */
+@media (max-width: 400px) {
+  .weather-card {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .weather-info .temp {
+    font-size: 36px;
+  }
+
+  .weather-info .location,
+  .weather-info .condition {
+    font-size: 14px;
+  }
+}
